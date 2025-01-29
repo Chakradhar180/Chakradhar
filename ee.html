@@ -1,0 +1,12 @@
+<h1 class="a">Hi</h1>
+    <h1 class="b">Hello</h1>
+    <h1 class="c">Welcome To</h1>
+    <h1 class="a">JavaScript</h1>
+    <script>
+    //Getting elements by Tag Name:
+    //This method takes a tag name as string and returns an HTML collection object
+    let x = document.getElementsByTagName("h1")
+    console.log(x)
+    for(let i=0; i<x.length; i++){
+        console.log(x[i].textContent)
+    }
